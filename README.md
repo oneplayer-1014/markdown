@@ -22,12 +22,12 @@
 
 큰제목 : 문서 제목
 
-This is an H1
+JO YURI
 =============
 
-This is an H1
+
 작은제목: 문서 부제목
 
-This is an H2
+JO YURI
 -------------
 
