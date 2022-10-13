@@ -66,14 +66,14 @@ JO YURI
 2 - BlockQuote
 
 ```
-> spy family
->	> spy family
->	>	> spy family
+> JO YURI
+>	> JO YURI
+>	>	> JO YURI
 ```
 
-> spy family
->	> spy family
->	>	> spy family
+> JO YURI
+>	> JO YURI
+>	>	> JO YURI
 
 이 안에서는 다른 마크다운 요소를 포함할 수 있다
 
@@ -105,30 +105,30 @@ JO YURI
 
 순서없는 목록 ( 글머리 기호: ```*``` , ```+``` , ```-```  지원 )
 ```
-* 로이드 포저
-  * 요르 포저
-    * 아냐 포저
+* JO YURI
+  * JO YURI
+    * JO YURI
 
-+ 로이드 포저
-  + 요르 포저
-    + 아냐 포저
++ JO YURI
+  + JO YURI
+    + JO YURI
 
-- 로이드 포저
-  - 요르 포저
-    - 아냐 포저
+- JO YURI
+  - JO YURI
+    - JO YURI
  ```
  
 * 로이드 포저
   * 요르 포저
     * 아냐 포저
 
-+ 로이드 포저
-  + 요르 포저
-    + 아냐 포저
++ JO YURI
+  + JO YURI
+    + JO YURI
 
-- 로이드 포저
-  - 요르 포저
-    - 아냐 포저
+- JO YURI
+  - JO YURI
+    - JO YURI
 
 혼합해서 사용하는 것도 가능하다 ( 내가 선호하는 방식 )
 
