@@ -118,9 +118,9 @@ JO YURI
     - JO YURI
  ```
  
-* 로이드 포저
-  * 요르 포저
-    * 아냐 포저
+* JO YURI
+  * JO YURI
+    * JO YURI
 
 + JO YURI
   + JO YURI
