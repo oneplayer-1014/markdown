@@ -149,13 +149,11 @@ JO YURI
 
 4 - 1 들여쓰기
 
-```
 This is a normal paragraph:
 
     This is a code block.
     
 end code block.
-```
 
 실제로 적용해보면,
 
@@ -180,3 +178,127 @@ end code block.
 This is a normal paragraph:
     This is a code block.
 end code block.
+
+적용예:
+
+This is a normal paragraph:
+
+This is a code block.
+end code block.
+
+한줄 띄어쓰지 않으면 인식이 제대로 안되는 문제가 발생합니다.
+
+This is a normal paragraph:
+    This is a code block.
+end code block.
+적용예:
+
+This is a normal paragraph: This is a code block. end code block.
+
+2.4.1. 코드블럭
+코드블럭은 다음과 같이 2가지 방식을 사용할 수 있습니다:
+
+<pre><code>{code}</code></pre> 이용방식
+<pre>
+<code>
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+
+}
+</code>
+</pre>
+
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+
+코드블럭코드("```") 을 이용하는 방법
+
+```
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+```
+
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+깃헙에서는 코드블럭코드("```") 시작점에 사용하는 언어를 선언하여 문법강조(Syntax highlighting)이 가능하다.
+
+
+```java
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+```
+
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+2.5. 수평선 <hr/>
+아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용한다.
+
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+적용예
+2.6. 링크
+참조링크
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
+Link: Google
+
+외부링크
+사용문법: [Title](link)
+적용예: [Google](https://google.com, "google link")
+Link: Google
+
+자동연결
+일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성한다.
+
+* 외부링크: <http://example.com/>
+* 이메일링크: <address@example.com>
+외부링크: http://example.com/
+이메일링크: address@example.com
+2.7. 강조
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+single asterisks
+single underscores
+double asterisks
+double underscores
+cancelline
+문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.
+문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.
+
+2.8. 이미지
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+
